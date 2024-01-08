@@ -14,6 +14,8 @@ import { VarifyEmailComponent } from "./component/varify-email/varify-email.comp
 import { AngularFirestoreModule } from "@angular/fire/compat/firestore/"
 import { FileuploadComponent } from "./component/fileupload/fileupload.component"
 import { GateAccessComponent } from "./component/gate-access/gate-access.component"
+import { GateListComponent } from "./component/gate-list/gate-list.component";
+import { DeleteGateComponent } from './component/delete-gate/delete-gate.component'
 
 @NgModule({
   declarations: [
@@ -25,6 +27,8 @@ import { GateAccessComponent } from "./component/gate-access/gate-access.compone
     VarifyEmailComponent,
     FileuploadComponent,
     GateAccessComponent,
+    GateListComponent,
+    DeleteGateComponent,
   ],
   imports: [
     BrowserModule,
